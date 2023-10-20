@@ -1,0 +1,61 @@
+
+#navbar #logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+#navbar #iletişim {
+    font-family: 'Poppins', sans-serif;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: .9rem;
+    border: 2px solid #003a49;
+    padding: .3rem 1rem;
+    border-radius: 2rem;
+    color: #005875;
+    transition: all 1s;
+}
+
+#navbar #iletişim:hover {
+    background-color: #005875;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+#navbar #iletişim i {
+    margin-right: 1rem;
+}
+
+
+
+
+
+
+#container #demoimg {
+    width: 90%;
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container #demoimg img {
+    width: 250px;
+    height: 100%;
+    border-radius: 10px;
+    transition: .5s;
+    margin: 1rem 0;
+}
+
+
+
+
+#footer #footerContact {
+    flex-direction: column;
+}
+
+#footer #footerContact .footContactİtems {
+    align-items: center;
+}
